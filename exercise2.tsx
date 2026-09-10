@@ -31,8 +31,8 @@ La API devuelve un ID simulado, pero no persiste realmente el recurso. Por eso e
 /*A4: metodo PATCH o PUT
 
 Status: 200
-PATCH modifica parcialmente un recurso.
-PUT normalmente reemplaza el recurso completo.
+PATCH modifica un recurso.
+PUT reemplaza el recurso completo.
 El body reflejó el cambio de title y conservó los demás campos.*/
 
 /*A5: metodo DELETE
