@@ -14,3 +14,9 @@ res: Es el objeto que usas para responder al cliente.
 3) Un puerto es un número que funciona como una "puerta de entrada" específica en tu computadora. Que un servidor escuche en el puerto 3000 significa que el programa de Node.js se queda atento exclusivamente a los datos que entran por esa "puerta". 
 4) localhost es un nombre de dominio reservado que significa "esta computadora". 
 5) curl es una herramienta de línea de comandos que se usa en la terminal para transferir datos desde o hacia un servidor. Es util ya que es rapido y directo, muestra datos ocultos con "-i o -I", entre otras funcionalidades. 
+
+ejericio7:
+2) las respuestas fueron:
+    curl http://localhost:4000/ = <h1>página de inicio</h1>
+    curl http://localhost:4000/alumnos = <h1>Los alumos aprobados son:</h1><p>Carlos, Maria y Juan</p>
+    curl http://localhost:4000/error = <h1>Error 404</h1>
