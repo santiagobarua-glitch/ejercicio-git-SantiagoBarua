@@ -10,7 +10,7 @@ const servidor = http.createServer((req, res) => {
   } 
   else if (req.url === '/alumnos' && req.method === 'GET') {
     res.statusCode = 200;
-    res.end('<h1>Los alumos aprobados son:</h1><p>Carlos, Maria y Juan</p>');
+    res.end('<h1>Los alumos desaprobados son:</h1><p>Manquez, La Volpe y Sosa</p>');
   } 
   else {
     res.statusCode = 404;
@@ -20,4 +20,4 @@ const servidor = http.createServer((req, res) => {
 
 servidor.listen(PUERTO, () => {
   console.log(`Servidor ejecutándose con éxito en http://localhost:${PUERTO}`);
-});
+})
