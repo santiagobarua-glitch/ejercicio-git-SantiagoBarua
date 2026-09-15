@@ -14,6 +14,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-servidor.listen(PUERTO, () => {
-  console.log(`Servidor ejecutándose con éxito en http://localhost:${PUERTO}`);
+servidor.listen(PORT, () => {
+  console.log(`Servidor ejecutándose con éxito en http://localhost:${PORT}`);
 });
