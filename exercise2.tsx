@@ -56,4 +56,3 @@ Body: {}*/
 
 /*B1: Si, se ven los mismos datos que antes, en la parte de abajo de la interfaz de postman.*/
 /*B2: En postman todo esta seccionado para que encuentres más rapido, pero la terminal te daba el status arriba de todo sin necesidad de buscar.*/
->>>>>>> a8799e8 (Feature: exercises 2 of backend - santiago barua (#3))
