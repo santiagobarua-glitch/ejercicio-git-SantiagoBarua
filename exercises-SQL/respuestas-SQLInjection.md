@@ -18,4 +18,5 @@ La consulta quedaría aproximadamente así:
 
 SELECT * FROM alumnos
 WHERE nombre = 'Manquez' OR '1'='1' --';
+
 La comilla simple cierra el valor original, `OR '1'='1'` agrega una condición siempre verdadera y `--` comenta el resto de la consulta. Para evitarlo, se deben usar consultas parametrizadas, por ejemplo con placeholders como `$1`, en lugar de concatenar directamente el dato recibido.
