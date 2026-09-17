@@ -43,3 +43,16 @@ RETURNING *;
 
 "id_genero"	"nombre"
      3	    "Acción"
+
+
+bloque 3:
+5) 
+SELECT peliculas.titulo, generos.nombre AS genero
+FROM peliculas
+INNER JOIN generos
+    ON peliculas.id_genero = generos.id_genero;
+
+"titulo"	                "genero"
+"Parasite"	                "Drama"
+"The Shawshank Redemption"	"Drama"
+"Inception"	                "Ciencia ficción"
